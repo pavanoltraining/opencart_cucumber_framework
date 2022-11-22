@@ -34,9 +34,9 @@ public class steps {
 
      List<HashMap<String, String>> datamap; //Data driven
 
-     Logger logger; //for logging
-     ResourceBundle rb; // for reading properties file
-     String br; //to store browser name
+     public Logger logger; //for logging
+     public ResourceBundle rb; // for reading properties file
+     public String br; //to store browser name
 
 
 
