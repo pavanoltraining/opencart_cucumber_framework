@@ -45,10 +45,11 @@ public class steps {
     {
         //for logging
         logger= LogManager.getLogger(this.getClass());
+        
         //Reading config.properties (for browser)
-        rb=ResourceBundle.getBundle("config");
-        br=rb.getString("browser");
-      
+        //rb=ResourceBundle.getBundle("config");
+        //br=rb.getString("browser");
+        br="chrome";
         macc=new MyAccountPage(driver);
                 
 
