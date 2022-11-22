@@ -76,7 +76,7 @@ public class steps {
         else if (br.equals("edge")) {
             driver = new EdgeDriver();
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
     }
 
     @Given("opens URL {string}")
