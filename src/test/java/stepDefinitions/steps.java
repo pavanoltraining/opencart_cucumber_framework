@@ -60,7 +60,7 @@ public class steps {
 		FileInputStream fis = new FileInputStream(src);
 		Properties pro = new Properties();
 		pro.load(fis);
-		String br = pro.getProperty("browser");
+		br = pro.getProperty("browser");
        
     }
 
